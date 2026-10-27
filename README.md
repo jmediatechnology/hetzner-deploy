@@ -1,4 +1,4 @@
-# photo-gallery-deploy
+# hetzner-deploy
 
 Deployment configuration for the Photo Gallery project. This repo owns the
 single VPS that runs both apps together — it does not build any images, it
@@ -21,7 +21,7 @@ here instead.
 
 ## One-time server setup
 
-1. Clone this repo onto the VPS, e.g. `/opt/photo-gallery-deploy`.
+1. Clone this repo onto the VPS, e.g. `/opt/hetzner-deploy`.
 2. Create the secret files (these are never committed):
    ```bash
    printf '%s' 'your-db-password'      > secrets/db-password-prod.txt
